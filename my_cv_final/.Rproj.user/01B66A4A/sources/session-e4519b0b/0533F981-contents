@@ -1,0 +1,256 @@
+---
+title: "Nikhil Wagh"
+subtitle: "Principal Clinical Programmer"
+#date: "`r Sys.Date()`"
+categories: [SAS, R, Python, SQL, Github, SQL, SAS, Data Science, Machine Learning, Statistics]
+tags: [SAS, R, Python, SQL, Github, SQL, SAS, Data Science, Machine Learning, Statistics]
+description: "📩: nmw1986@gmail.com | 📞 +91 9975148442 | 🔗: [LinkedIn](www.linkedin.com/in/waghnikhil) | [Quarto](https://quarto.org/)"
+# title-block-banner: "images/nikhil.jpg"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    keep-tex: true
+    geometry: margin=1in
+    fontsize: 11pt
+    mainfont: Arial
+    theme: cerulean
+#css: styles.css
+---
+
+
+## About {#about}
+
+I am a highly skilled and goal-oriented professional with a diverse background in the pharmaceutical and clinical research organization sectors. With over 12 years of experience, I specialize in utilizing SAS,R,Python and BI tools to drive efficient data analysis, management, and reporting in the Clinical Trial Industry. My expertise lies in clinical data management, statistical programming, and data visualization, enabling me to deliver actionable insights that support informed decision-making. I am adept at collaborating with cross-functional teams, ensuring seamless communication and project execution.
+
+I am passionate about leveraging technology to optimize processes and enhance data quality, ultimately contributing to the success of clinical trials and research initiatives. My commitment to continuous learning and professional development keeps me at the forefront of industry trends and best practices.
+
+
+## Experience
+
+::: {.callout-caution collapse="true" icon="false"}
+## **Principal Clinical Programmer** at **Novartis** (September 2022 - Present)
+
+-   Leading the development and implementation of advanced statistical programming solutions using SAS, R, and Python to support clinical trials.
+-   Collaborating with cross-functional teams to ensure data integrity and compliance with regulatory standards.
+-   Mentoring junior programmers and providing technical guidance on complex programming tasks.
+-   Driving process improvements and automation initiatives to enhance efficiency and accuracy in data analysis and reporting.
+-   Coordinating with stakeholders to deliver high-quality datasets and reports for regulatory submissions.
+-   Utilizing R/Shiny and BI tools to create interactive dashboards and visualizations for data interpretation and decision-making.
+-   Implementing machine learning algorithms to analyze clinical data and identify patterns that inform trial outcomes.
+-   Conducting training sessions and workshops to upskill team members on the latest programming techniques and tools.
+:::
+
+::: {.callout-caution collapse="true" icon="false"}
+## **Programming Lead** at **Labcorp** (September 2021 - September 2022)
+
+-   Working as Lead for the Rare Disease (RWD/RWE) observational Phase-IV registry study.
+-   Analyzing and Reporting of Safety and Efficacy Data using SAS.
+-   Creating SAS macros or updating complex study macros and performing process automation.
+-   Handling and cleaning multi-center large datasets (RWD) and creating study-specific domains.
+-   Develop SAS programs for creating analysis/derived datasets (ADS).
+-   To review Protocol, Statistical Analysis Plan (SAP), CRF for generation of the table, figure, and listing outputs and provide inputs to specifications, listing outputs, and summaries, as required.
+
+🔮 Process Automation 1: 📊 Combined multiple CSV file outputs into a single Excel file with a dynamic Table of Contents (TOC) and hyperlinks for seamless navigation. ⏰ Simplified review process, saving significant time and effort for Biostat/Client. 🏆 Recognized with Labcorp ACE - Level 4 award for outstanding automation.
+
+🔮 Process Automation 2: 📁 Consolidated TLG RTF outputs into a comprehensive RTF file with a user-friendly TOC and hyperlinks. ⌛️ Reduced report compilation time from 8 hours to just 1 hour. 🚀 Streamlined Biostat/Client review process, minimizing manual efforts.
+:::
+
+::: {.callout-caution collapse="true" icon="false"}
+## **Statistical Programmer** at **Syneos Health** (June 2017 - September 2021)
+
+-   To review Protocol, Statistical Analysis Plan (SAP), CRF for generation of the table, figure and listing outputs and provide inputs to specifications, listing outputs and summaries, as required.
+-   As required, make certain that documents and specifications are consistent and comply with company standards.
+-   Develop SAS programs for creating analysis/derived datasets and generating tables and listings.
+-   To perform independent report management tasks for validation purposes.
+-   Validate analysis/derived datasets and tables & listings.
+-   Generate Define.xml and creation of Analysis Data Reviewers Guide (ADRG).
+-   Maintain all the required documentation for assigned projects and adhere to all Client SOPs.
+:::
+
+::: {.callout-caution collapse="true" icon="false"}
+## **Clinical SAS programmer** at **TCS** (October 2013 - June 2017)
+
+**SAS (ADaM/TLFs)** :
+
+-   Create ADaM specification and derived datasets for BA/BE studies.
+-   Creation of standard Tables and Listings for Safety and PK reporting.
+-   Validation of ADaM datasets and TLFs.
+-   Creation of ADaM – Define and ADRG.
+
+**SAS (CDM)**:
+
+-   Responsible for reviewing Data Validation Specifications, writing SAS codes as per validation check description to find out the data discrepancies.
+-   Reconciliation of external vendor data with InForm database.
+-   Generate the Patient profile listings in SAS and SpotFire.
+-   Generate the periodic DSUR listings for safety reporting.
+-   Create study specific visualization using SpotFire and SAS on clinical trial data for Safety and Risk-based Monitoring.
+:::
+
+::: {.callout-caution collapse="true" icon="false"}
+## **Officer - Professional Training** at **Cytel** (March 2013 - October 2013)
+
+Train CliPLab interns in to Clinical SAS Programming, co-ordinate various projects like Analysis Dataset Creation, Analysis Data Validation, Pharmacokinetics Data Integration, Report/Tables Generation and Graph Generation.
+
+Participation in Process improvements with respect to betterment of training Process.
+
+***Responsibilities:***
+
+-   Leading a team of 10-15 interns in entire CliPLab internship.
+-   Train the CliPLab interns in Clinical SAS Programming i.e. TLGs.
+-   Asses the programs and outputs generated by the Interns.
+-   Managing Project Kick-off teleconferences and Sign-off meetings.
+:::
+
+## Education
+
+-   Bachelor of Pharmacy (B.Pharm) from North Maharashtra University (2006 - 2009)
+-   Diploma in Pharmacy (D.Pharm) from Maharashtra State Board of Technical Education (2004 - 2006)
+-   HSC from Maharashtra State Board of Secondary and Higher Secondary Education (2002 - 2004)
+-   SSC from Maharashtra State Board of Secondary and Higher Secondary Education (2002)
+
+## Skills
+  
+  
+    
+```{r career-skill-timeline, echo=FALSE, results='asis', echo=FALSE, warning=FALSE, message=FALSE, fig.width=10, fig.height=6}
+library(plotly)
+library(dplyr)
+library(lubridate)
+
+# ---- Data ----
+timeline <- tribble(
+  ~Name, ~Type, ~Start, ~End,
+  "Novartis (Principal Clinical Programmer)", "Company", "2022-09", "Present",
+  "Labcorp (Programming Lead)", "Company", "2021-09", "2022-09",
+  "Syneos Health (Statistical Programmer)", "Company", "2017-06", "2021-09",
+  "TCS (Clinical SAS Programmer)", "Company", "2013-10", "2017-06",
+  "Cytel (Officer - Training)", "Company", "2013-03", "2013-10",
+  "SAS", "Skill", "2013-03", "Present",
+  "SQL", "Skill", "2014-01", "Present",
+  "Spotfire", "Skill", "2013-10", "2017-06",
+  "R", "Skill", "2022-01", "Present",
+  "Python", "Skill", "2022-09", "Present",
+  "Data Science (ML/AI)", "Skill", "2022-09", "Present",
+  "Shiny", "Skill", "2022-09", "Present",
+  "Jreview", "Skill", "2022-09", "Present",
+  "Git/Gitlab/ClearCase", "Skill", "2022-09", "Present"
+)
+
+# ---- Prepare data ----
+timeline <- timeline %>%
+  mutate(
+    Start_Date = if_else(Start == "Present", format(Sys.Date(), "%Y-%m"), Start),
+    End_Date   = if_else(End == "Present", format(Sys.Date(), "%Y-%m"), End),
+    Start1     = ymd(paste0(Start_Date, "-01")),
+    End1       = ymd(paste0(End_Date, "-01")) + days(1)
+  )
+
+career_start <- min(timeline$Start1)
+
+timeline <- timeline %>%
+  mutate(
+    Start_exp = as.numeric(difftime(Start1, career_start, units = "days")) / 365.25,
+    End_exp   = as.numeric(difftime(End1, career_start, units = "days")) / 365.25
+  )
+
+company_df <- timeline %>% filter(Type == "Company") %>% arrange(Start1)
+skill_df   <- timeline %>% filter(Type == "Skill") %>% arrange(Start1)
+
+# Assign numeric y positions for skills
+skill_df <- skill_df %>%
+  mutate(y_pos = row_number())
+
+# Y-axis labels (skill names)
+y_labels <- setNames(skill_df$y_pos, skill_df$Name)
+
+# ---- Company colors ----
+company_colors <- c(
+  "Cytel (Officer - Training)" = "#FFBE0B",
+  "TCS (Clinical SAS Programmer)" = "#FB5607",
+  "Syneos Health (Statistical Programmer)" = "#FF006E",
+  "Labcorp (Programming Lead)" = "#8338EC",
+  "Novartis (Principal Clinical Programmer)" = "#3A86FF"
+)
+
+# ---- Build Plotly Graph ----
+p <- plot_ly()
+
+# Add company background rectangles
+for (i in seq_len(nrow(company_df))) {
+  p <- add_trace(
+    p,
+    type = "scatter",
+    mode = "none",
+    fill = "toself",
+    name = company_df$Name[i],   # 👈 add this line
+    fillcolor = adjustcolor(company_colors[company_df$Name[i]], alpha.f = 0.25),
+    hoverinfo = "text",
+    text = paste0(
+      "<b>Company:</b> ", company_df$Name[i], "<br>",
+      "<b>From:</b> ", company_df$Start[i], "<br>",
+      "<b>To:</b> ", company_df$End[i]
+    ),
+    x = c(company_df$Start_exp[i], company_df$End_exp[i],
+          company_df$End_exp[i], company_df$Start_exp[i]),
+    y = c(0.5, 0.5, max(skill_df$y_pos) + 0.5, max(skill_df$y_pos) + 0.5),
+    showlegend = FALSE
+  )
+}
+# Add skill bars
+p <- add_trace(
+  p,
+  type = "bar",
+  orientation = "h",
+  y = skill_df$y_pos,
+  x = skill_df$End_exp - skill_df$Start_exp,
+  base = skill_df$Start_exp,
+  marker = list(color = "#00A8E8"),
+  hoverinfo = "text",
+  text = paste0(
+    "<b>Skill:</b> ", skill_df$Name, "<br>",
+    "<b>From:</b> ", format(skill_df$Start1, "%b %Y"), "<br>",
+    "<b>To:</b> ", ifelse(skill_df$End == "Present", "Present", format(skill_df$End1, "%b %Y"))
+  ),
+  name = "Skills"
+)
+
+# Add layout
+p <- layout(
+  p,
+  title = list(
+    text = "Career & Skill Timeline — Nikhil Wagh",
+    x = 0.05,
+    font = list(size = 18, family = "Arial", color = "#222")
+  ),
+  xaxis = list(
+    title = "Years of Experience",
+    tickvals = seq(0, ceiling(max(skill_df$End_exp)), 1),
+    ticktext = paste0(seq(0, ceiling(max(skill_df$End_exp)), 1), "y"),
+    gridcolor = "#EAEAEA"
+  ),
+  yaxis = list(
+    title = "",
+    tickvals = skill_df$y_pos,
+    ticktext = skill_df$Name,
+    gridcolor = "transparent"
+  ),
+  bargap = 0.25,
+  hoverlabel = list(bgcolor = "white", font = list(size = 11)),
+  plot_bgcolor = "#FFFFFF",
+  paper_bgcolor = "#FFFFFF",
+  showlegend = FALSE,
+  margin = list(l = 150, r = 20, t = 60, b = 40)
+)
+
+
+p
+
+```
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <a href="Nikhil Wagh.pdf" target="_blank" style="font-size: 16px; color: blue; text-decoration: underline;">
+    Download My CV (PDF)
+  </a>
+</div>
+
