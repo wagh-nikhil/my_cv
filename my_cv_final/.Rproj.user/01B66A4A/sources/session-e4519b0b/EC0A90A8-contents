@@ -4,7 +4,7 @@ subtitle: "Principal Clinical Programmer"
 #date: "`r Sys.Date()`"
 categories: [SAS, R, Python, SQL, Github, SQL, SAS, Data Science, Machine Learning, Statistics]
 tags: [SAS, R, Python, SQL, Github, SQL, SAS, Data Science, Machine Learning, Statistics]
-description: "📩: nmw1986@gmail.com | 📞 +91 9975148442 | 🔗: [LinkedIn](www.linkedin.com/in/waghnikhil) | [Quarto](https://quarto.org/)"
+description: "📩: nmw1986@gmail.com | 📞 +91 9975148442 | 🔗: [LinkedIn](www.linkedin.com/in/waghnikhil)"
 # title-block-banner: "images/nikhil.jpg"
 format:
   html:
@@ -16,7 +16,7 @@ format:
     mainfont: Arial
     theme: cerulean
 #css: styles.css
----cd
+---
 
 
 ## About {#about}
